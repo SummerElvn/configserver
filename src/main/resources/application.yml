@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configserver
+
+  cloud:
+    config:
+      server:
+        git:
+          branch: main
+          uri: https://github.com/Hemanadh/configproperties.git
+
+server:
+  port: 8888
